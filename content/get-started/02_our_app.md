@@ -88,7 +88,7 @@ To build the image, you'll need to use a Dockerfile. A Dockerfile is simply a te
    ```dockerfile
    # syntax=docker/dockerfile:1
    
-   FROM node:18-alpine
+   FROM node:20-alpine
    WORKDIR /app
    COPY . .
    RUN yarn install --production
